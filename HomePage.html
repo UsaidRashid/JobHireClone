@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Recruitment Startup</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #333;
+            color: #fff;
+        }
+
+        header {
+            background-color: #111;
+            padding: 10px;
+            text-align: center;
+        }
+
+        header nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        #hero {
+            text-align: center;
+            padding: 80px 0;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+                url("hero-background.jpg");
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+        }
+
+        #hero h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        #hero p {
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+
+        #hero form {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        #hero input[type="text"] {
+            padding: 10px;
+            border: none;
+            border-bottom: 2px solid #007BFF;
+            background-color: rgba(255, 255, 255, 0.1);
+            color: #fff;
+            width: 400px;
+            font-size: 16px;
+            transition: background-color 0.3s, border-bottom 0.3s;
+        }
+
+        #hero input[type="text"]:focus {
+            background-color: rgba(255, 255, 255, 0.2);
+            border-bottom: 2px solid #0056b3;
+        }
+
+        #hero button {
+            background-color: #007BFF;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        #hero button:hover {
+            background-color: #0056b3;
+        }
+
+        #hero a {
+            display: inline-block;
+            background-color: #007BFF;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            margin-top: 10px;
+            transition: background-color 0.3s;
+        }
+
+        #hero a:hover {
+            background-color: #0056b3;
+        }
+
+        #featured-jobs {
+            text-align: center;
+            padding: 50px 0;
+            background-color: #222;
+        }
+
+        #featured-jobs h2 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .job {
+            background-color: #333;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+        }
+
+        .job h3 {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        .job p {
+            font-size: 16px;
+            margin-bottom: 5px;
+        }
+
+        .job a {
+            display: inline-block;
+            background-color: #007BFF;
+            color: #fff;
+            padding: 8px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+            margin-top: 10px;
+            transition: background-color 0.3s;
+        }
+
+        .job a:hover {
+            background-color: #0056b3;
+        }
+
+        #how-it-works {
+            text-align: center;
+            padding: 50px 0;
+            background-color: #333;
+        }
+
+        #how-it-works h2 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .step {
+            display: inline-block;
+            text-align: center;
+            width: 30%;
+            margin: 20px;
+        }
+
+        .step img {
+            width: 100px;
+            height: 100px;
+            margin-bottom: 10px;
+        }
+
+        #testimonials {
+            text-align: center;
+            padding: 50px 0;
+            background-color: #222;
+        }
+
+        #testimonials h2 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .testimonial {
+            background-color: #333;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin: 20px;
+        }
+
+        .testimonial p {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #111;
+            padding: 10px;
+            color: #fff;
+        }
+
+        footer nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <a href="">Home</a>
+            <a href="">Jobs</a>
+            <a href="">About Us</a>
+            <a href="">Contact</a>
+            <a href="">Login</a>
+            <a href="">Sign Up</a>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h1>Welcome to Your Recruitment Startup</h1>
+        <p>Find the best software engineers, product managers, data scientists, and more!</p>
+        <form action="#" method="GET">
+            <input type="text" placeholder="Search for jobs or candidates">
+            <button type="submit">Search</button>
+        </form>
+        <a href="">Post a Job</a>
+    </section>
+
+    <section id="featured-jobs">
+        <h2>Featured Jobs</h2>
+        <div class="job">
+            <h3>Software Engineer</h3>
+            <p>Google</p>
+            <p>Dubai</p>
+            <a href="">View Details</a>
+        </div>
+        </div>
+    </section>
+
+    <section id="how-it-works">
+        <h2>How It Works</h2>
+        <div class="step">
+            <img src="th.jpeg" alt="Step 1">
+            <p>Step 1: Sign Up for an Account</p>
+        </div>
+        <div class="step">
+            <img src="job.jpeg" alt="Step 2">
+            <p>Step 2: Post Jobs or Search Candidates</p>
+        </div>
+        <div class="step">
+            <img src="connect.jpeg" alt="Step 3">
+            <p>Step 3: Connect and Hire</p>
+        </div>
+    </section>
+
+
+    
+    <section id="testimonials">
+        <h2>Testimonials</h2>
+        <div class="testimonial">
+            <p>"Great platform! We found our ideal candidate within days."</p>
+            <p>- Usaid Rashid, Founder of Google</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>Contact us at: rashidusaid2@gmail.com | Phone: 9315000139</p>
+        <nav>
+            <a href="">Privacy Policy</a>
+            <a href="">Terms of Service</a>
+            <a href="https://www.linkedin.com/in/usaidrashid/">LinkedIn Link</a>
+        </nav>
+    </footer>
+</body>
+
+</html>
